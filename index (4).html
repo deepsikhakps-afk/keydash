@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KeyDash — Typing Speed Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-icon">⌨</span>
+    <span class="brand-name">KeyDash</span>
+  </div>
+  <p class="tagline">Test your typing speed and accuracy — right in your browser.</p>
+</header>
+
+<main class="container">
+
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-value" id="timeLeft">30</span>
+      <span class="stat-label">Seconds</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="wpmValue">0</span>
+      <span class="stat-label">WPM</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="accuracyValue">100</span>
+      <span class="stat-label">Accuracy %</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="errorsValue">0</span>
+      <span class="stat-label">Errors</span>
+    </div>
+  </div>
+
+  <div class="control-row">
+    <label for="durationSelect">Test duration</label>
+    <select id="durationSelect">
+      <option value="15">15 seconds</option>
+      <option value="30" selected>30 seconds</option>
+      <option value="60">60 seconds</option>
+      <option value="120">120 seconds</option>
+    </select>
+  </div>
+
+  <div class="text-display" id="textDisplay"></div>
+
+  <textarea id="typingInput" rows="3" placeholder="Click here and start typing to begin..." autocomplete="off" autocorrect="off" spellcheck="false"></textarea>
+
+  <div class="buttons-row">
+    <button id="restartBtn" class="btn secondary">Restart</button>
+  </div>
+
+  <section id="resultBox" class="result-box hidden">
+    <h2>Test Complete</h2>
+    <div class="result-grid">
+      <div><span id="finalWpm">0</span><label>WPM</label></div>
+      <div><span id="finalAccuracy">0</span><label>Accuracy %</label></div>
+      <div><span id="finalErrors">0</span><label>Errors</label></div>
+    </div>
+    <h3>Leaderboard (this device)</h3>
+    <ol id="leaderboardList" class="leaderboard"></ol>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Built with vanilla HTML, CSS & JS — scores saved locally via <code>localStorage</code>.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
