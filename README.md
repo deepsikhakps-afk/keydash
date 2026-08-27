@@ -23,3 +23,12 @@ KeyDash presents a random passage of text and tracks your typing character-by-ch
 
 - HTML5 / CSS3 / Vanilla JavaScript
 - `localStorage` for persisting scores
+
+## Getting Started
+
+No installation or build step required.
+
+```bash
+git clone https://github.com/<your-username>/keydash.git
+cd keydash
+```
