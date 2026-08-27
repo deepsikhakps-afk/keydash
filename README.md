@@ -32,3 +32,17 @@ No installation or build step required.
 git clone https://github.com/<your-username>/keydash.git
 cd keydash
 ```
+
+Open `index.html` directly in your browser, or serve it locally:
+
+```bash
+# Python
+python -m http.server 8000
+
+# Node
+npx serve .
+```
+
+Visit `http://localhost:8000` and start typing.
+
+## Deploy on GitHub Pages
