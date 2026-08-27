@@ -46,3 +46,15 @@ npx serve .
 Visit `http://localhost:8000` and start typing.
 
 ## Deploy on GitHub Pages
+
+1. Push this repo to GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Source**, select the `main` branch and `/ (root)` folder.
+4. Your app will be live at `https://<your-username>.github.io/keydash/`.
+
+## Project Structure
+
+```
+keydash/
+├── index.html   # App layout — stats bar, text display, input, results
+├── style.css    # Dark-themed responsive styling
