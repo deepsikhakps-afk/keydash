@@ -18,3 +18,8 @@ KeyDash presents a random passage of text and tracks your typing character-by-ch
 - 🔄 Restart anytime with a fresh passage
 - 📱 Responsive, dark-themed UI
 - 🚫 100% client-side — no backend required
+
+## Tech Stack
+
+- HTML5 / CSS3 / Vanilla JavaScript
+- `localStorage` for persisting scores
