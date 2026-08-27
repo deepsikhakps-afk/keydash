@@ -7,3 +7,14 @@
 ## Description
 
 KeyDash presents a random passage of text and tracks your typing character-by-character as you type it out, live-calculating your words-per-minute, accuracy percentage, and error count. Once the timer runs out (or you finish the passage), your score is saved to a local leaderboard — no server, no sign-up, no data leaves your browser.
+
+## Features
+
+- ⏱️ Selectable test duration: 15s / 30s / 60s / 120s
+- 📝 Randomized passages on every attempt
+- 🎯 Live WPM, accuracy %, and error count while typing
+- 🟢 Character-by-character visual feedback (correct / wrong / current position)
+- 🏆 Local leaderboard of your best 10 scores (via `localStorage`)
+- 🔄 Restart anytime with a fresh passage
+- 📱 Responsive, dark-themed UI
+- 🚫 100% client-side — no backend required
