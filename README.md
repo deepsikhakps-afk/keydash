@@ -49,7 +49,7 @@ Visit `http://localhost:8000` and start typing.
 
 1. Push this repo to GitHub.
 2. Go to **Settings → Pages**.
-3. Under **Source**, select the `main` branch and `/ (root)` folder.
+3. Under **Source**, select the `main` branch and `/ (root)` 
 4. Your app will be live at `https://<your-username>.github.io/keydash/`.
 
 ## Project Structure
