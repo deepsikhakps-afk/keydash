@@ -61,7 +61,7 @@ keydash/
 ├── script.js    # Typing logic, WPM/accuracy calculation, leaderboard
 └── README.md
 ```
-S
+Screenshot
 
 ## How It Works
 
