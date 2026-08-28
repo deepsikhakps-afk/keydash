@@ -62,6 +62,7 @@ keydash/
 └── README.md
 ```
 Screenshot
+![alt text](image.png)
 
 ## How It Works
 
