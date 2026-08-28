@@ -56,7 +56,7 @@ Visit `http://localhost:8000` and start typing.
 
 ```
 keydash/
-├── index.html   # App layout — stats bar, text display, input, results
+├── index.html   # App layout — stats bar, text display, input, 
 ├── style.css    # Dark-themed responsive styling
 ├── script.js    # Typing logic, WPM/accuracy calculation, leaderboard
 └── README.md
