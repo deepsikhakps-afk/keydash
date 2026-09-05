@@ -55,8 +55,7 @@ Visit `http://localhost:8000` and start typing.
 ## Project Structure
 
 ```
-keydash/
-├── index.html   # App layout — stats bar, text display, input, results
+keydash/results
 ├── style.css    # Dark-themed responsive styling
 ├── script.js    # Typing logic, WPM/accuracy calculation, leaderboard
 └── README.md
