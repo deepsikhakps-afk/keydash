@@ -58,8 +58,7 @@ Visit `http://localhost:8000` and start typing.
 keydash/
 ├── index.html   # App layout — stats bar, text display, input, results
 ├── style.css    # Dark-themed responsive styling
-├── script.js    # Typing logic, WPM/accuracy calculation, leaderboard
-└── README.md
+├── script.js    # Typing logic, WPM/accuracy calculation,
 ```
 Screenshot
 ![alt text](image.png)
