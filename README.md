@@ -66,8 +66,7 @@ Screenshot
 
 ## How It Works
 
-1. A random passage is rendered as individual `<span>` characters.
-2. As the user types into a textarea, each character is compared live against the target text and highlighted green (correct) or red (wrong).
+1. A random passage i
 3. WPM is calculated as `(characters typed / 5) / minutes elapsed`, following the standard "5 characters = 1 word" convention.
 4. Accuracy is `((total typed - errors) / total typed) × 100`.
 5. On completion, the score is stored in `localStorage` and the top 10 are shown as a leaderboard.
